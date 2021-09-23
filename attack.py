@@ -63,7 +63,7 @@ def load_and_align_images(filepaths, margin=1):
 input_image_path = 'images/mark.jpg'
 
 target_image_path = 'images/bill/Bill_Gates_0002.jpg'
-output_image_path = '/tmp/hacked_image.png'
+output_image_path = 'hacked_image.png'
 
 model_path = 'model/keras/model/facenet_keras.h5'
 cascade_path = 'model/cv2/haarcascade_frontalface_alt2.xml'
